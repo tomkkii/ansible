@@ -1,0 +1,4 @@
+- hosts: appweb
+  tasks:
+  - name: Install Lynx on Web Server
+    yum: pkg=lynx state=installed update_cache=true
